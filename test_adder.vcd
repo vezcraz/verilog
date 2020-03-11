@@ -1,0 +1,77 @@
+$date
+	Wed Nov 20 22:07:00 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_adder $end
+$var wire 5 ! x [0:4] $end
+$var wire 4 " d [0:3] $end
+$var wire 1 # c_out $end
+$var reg 1 $ c_in $end
+$var reg 4 % inp1 [0:3] $end
+$var reg 4 & inp2 [0:3] $end
+$var reg 1 ' z $end
+$scope module m $end
+$var wire 4 ( a [3:0] $end
+$var wire 4 ) b [3:0] $end
+$var wire 1 $ c_in $end
+$var wire 1 ' z $end
+$var reg 1 # c_out $end
+$var reg 4 * d [3:0] $end
+$var reg 5 + x [0:4] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 +
+b110 *
+b110 )
+b1011 (
+0'
+b110 &
+b1011 %
+1$
+0#
+b110 "
+b110 !
+$end
+#10
+b10010 !
+b10010 +
+1#
+b10 "
+b10 *
+1'
+#20
+b110 !
+b110 +
+0#
+b110 "
+b110 *
+0'
+#30
+b10010 !
+b10010 +
+1#
+b10 "
+b10 *
+1'
+#40
+b110 !
+b110 +
+0#
+b110 "
+b110 *
+0'
+#50
+b10010 !
+b10010 +
+1#
+b10 "
+b10 *
+1'
